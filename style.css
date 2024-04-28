@@ -1033,7 +1033,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Mattone 150";
+    font-family: 'Mattone 150';
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
@@ -1079,7 +1079,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Mattone 150";
+    font-family: 'Mattone 150';
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
@@ -1114,7 +1114,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Mattone 150";
+    font-family: 'Mattone 150';
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
@@ -1172,7 +1172,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Mattone 150";
+    font-family: 'Mattone 150';
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
