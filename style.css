@@ -172,7 +172,7 @@ body::-webkit-scrollbar-thumb {
   .home-header-name {
     position: absolute;
     padding: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     left: 0;
     text-decoration: none;
     font-size: 20px;
@@ -932,7 +932,7 @@ table {
   .home-header-name {
     position: absolute;
     padding: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     left: 0;
     text-decoration: none;
     font-size: 20px;
