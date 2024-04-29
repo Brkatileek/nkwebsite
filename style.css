@@ -52,8 +52,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 @font-face {
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150'; 
   src: url(Mattone\ 150\ 600.otf);
+}
+@font-face {
+  font-family: 'Mattone'; 
+  src: url(Mattone-Regular.otf);
+}
+@font-face {
+  font-family: 'Frutiger'; 
+  src: url(Frutiger.ttf);
 }
 
 
