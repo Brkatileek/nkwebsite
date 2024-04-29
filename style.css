@@ -63,6 +63,10 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Frutiger'; 
   src: url(Frutiger.ttf);
 }
+@font-face {
+  font-family: Verdana; 
+  src: url(VERDANA.TTF);
+}
 
 
 @keyframes fade {
