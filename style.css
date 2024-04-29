@@ -15,7 +15,6 @@ body {
   height: auto;
 }
 
-
 .nothing::-webkit-scrollbar {
   display: none;
 }
@@ -50,9 +49,13 @@ body::-webkit-scrollbar-thumb {
   --fs-xl: clamp(1rem, 15vw + 1rem, 8rem);
   --fs-600: 2rem;
   --fs-400: 1rem;
-
-
 }
+
+@font-face {
+  font-family: 'Mattone 150';
+  src: url(Mattone\ 150\ 600.otf);
+}
+
 
 @keyframes fade {
   0%{
