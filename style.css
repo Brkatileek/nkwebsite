@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .info button {
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;;
   background-color: transparent;
   border: 1px solid blue;
   color:blue;
@@ -329,7 +329,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #ffffffad;
   }
   .hamburger a {
-    font-family: 'Frutiger';
+    font-family: 'Frutiger', sans-serif;
     color: #0000ff;
     font-size: large;
     font-weight: 800;
@@ -391,7 +391,7 @@ body::-webkit-scrollbar-thumb {
 
   .nav-item a {
     text-decoration: none;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     font-weight: 900;
     color: rgb(220, 220, 220);
    
@@ -413,7 +413,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     font-size: 3em;
     place-content: center flex-start;
     flex-wrap: nowrap;
@@ -445,7 +445,7 @@ body::-webkit-scrollbar-thumb {
   h2 {
     text-decoration: none;
     font-size: 9cqmax;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     color: rgb(220, 220, 220);
     -webkit-transition: all 300ms;
     -moz-transition: all 300ms;
@@ -487,9 +487,8 @@ body::-webkit-scrollbar-thumb {
   .footer a:link{
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Mattone 150';
-  }
-
+    font-family: 'Mattone 150', sans-serif;
+}
   .footer a {
     color: white;
   }
@@ -536,7 +535,7 @@ body::-webkit-scrollbar-thumb {
 .footer_fyi a:link{
   cursor: pointer;
   text-decoration: none;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
 }
 
 .footer_fyi a {
@@ -577,7 +576,7 @@ body::-webkit-scrollbar-thumb {
 .footer_fyi-pi a:link {
   cursor: pointer;
   text-decoration: none;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
 }
 
 .footer_fyi-pi a {
@@ -707,7 +706,7 @@ video {
 .idowhathas h2 {
     justify-items: start;
     color: #0000ff!important;
-    font-family: 'Mattone';
+    font-family: 'Mattone', sans-serif;
     display: grid;
     padding: 20px 20px 0px 20px;
     margin: 0px;
@@ -716,7 +715,7 @@ video {
 .tobedone h2  {
     justify-items: end;
     color: #0000ff!important;
-    font-family: 'Mattone';
+    font-family: 'Mattone', sans-serif;
     display: grid;
     padding: 0px 20px 20px 20px;
     margin: 0px;
@@ -755,7 +754,7 @@ justify-content: center;
 }
 
 .content h3, .price {
-  font-family: 'Mattone', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Mattone', sans-serif;
   margin: 0px;
   text-align: center;
   color: rgb(220, 220, 220);
@@ -782,7 +781,7 @@ justify-content: center;
   display: grid;
   justify-content: center;
   box-sizing: border-box;
-  font-family: 'mattone 150';
+  font-family: 'mattone 150', sans-serif;
 }
   
 .imprintinfo {
@@ -791,7 +790,7 @@ justify-content: center;
   display: grid;
   justify-content: center;
   box-sizing: border-box;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
   color: rgb(220, 220, 220);
 }
 
@@ -804,7 +803,7 @@ justify-content: center;
   color: rgb(220, 220, 220);
   padding-right: 30%;
   padding-left: 10%;
-  font-family: 'mattone 150';
+  font-family: 'mattone 150', sans-serif;
   font-size: 1rem;
  }
 
@@ -826,7 +825,7 @@ justify-content: center;
   display: grid;
   justify-content: center;
   box-sizing: border-box;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
   color: rgb(220, 220, 220);
   padding-top: 70px;
 }
@@ -962,7 +961,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
@@ -978,7 +977,7 @@ table {
   display: grid;
   justify-content: center;
   box-sizing: border-box;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
   color: rgb(220, 220, 220);
   box-sizing: border-box;
 }
@@ -1003,7 +1002,7 @@ table {
 .privacy {
   color: rgb(220, 220, 220);
   padding: 10%;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
   font-size: 1rem;
  }
 
@@ -1034,7 +1033,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
@@ -1056,7 +1055,7 @@ table {
   display: grid;
   justify-content: center;
   box-sizing: border-box;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
   color: rgb(220, 220, 220);
   box-sizing: border-box;
 }
@@ -1080,7 +1079,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
@@ -1115,7 +1114,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
@@ -1135,7 +1134,7 @@ table {
   display: grid;
   justify-content: center;
   box-sizing: border-box;
-  font-family: 'Mattone 150';
+  font-family: 'Mattone 150', sans-serif;
   color: rgb(220, 220, 220);
 }
 }
@@ -1155,7 +1154,7 @@ table {
     display: grid;
     justify-content: center;
     box-sizing: border-box;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     color: rgb(220, 220, 220);
   }
   .nav-menu.active {
@@ -1173,7 +1172,7 @@ table {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Mattone 150';
+    font-family: 'Mattone 150', sans-serif;
     font-size: 3em;
     place-content: center flex-start;
     flex-flow: row;
