@@ -1025,11 +1025,6 @@ table {
   text-decoration: none;
  }
 
- .privacy a {
-  text-decoration: none;
- }
-
-
 /*481px — 768px: iPads, Tablets*/
 
 @media (min-width: 481px) and (max-width: 768px) {
