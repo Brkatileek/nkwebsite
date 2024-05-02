@@ -194,7 +194,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 32px;
     font-family: 'Mattone 150', sans-serif;
     font-weight: bold;
-    color: #0000ff;
+    color: blue;
     z-index: 5;
     display: inline-block;
     vertical-align: middle;
@@ -296,7 +296,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .work-info h2 {
-    margin-top: 5rem; 
+    margin-top: 10rem; 
     padding: 20px; 
     font-weight: bolder;
     font-size: 2rem;
@@ -678,6 +678,7 @@ table {
   width: 100%;
   position: absolute;
   text-align: center;
+  height: 5rem;
 }
 
 .carousel-button {
@@ -921,6 +922,22 @@ table {
   font-size: 1.2rem;
 }
 
+.carousel-nav {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  height: 6rem;
+}
+
+.work-info h2 {
+  margin-top: 5rem;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align-last: right;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 

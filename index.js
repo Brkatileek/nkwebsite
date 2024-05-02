@@ -1,36 +1,53 @@
+
+
 document.querySelectorAll(".carousel").forEach(carousel => {
   const items = carousel.querySelectorAll(".carousel-item");
   const buttonsHtml = Array.from(items, () => {
-      return `<span class="carousel-button"></span>`;
+    return `<span class="carousel-button"></span>`;
+  });
+
+  carousel.insertAdjacentHTML("beforeend", `
+    <div class="carousel-nav">
+      <span class="carousel-prev"></span>
+      ${buttonsHtml.join("")}
+      <span class="carousel-next"></span>
+    </div>  
+  `);
+
+  const buttons = carousel.querySelectorAll(".carousel-button");
+  const prevButton = carousel.querySelector(".carousel-prev");
+  const nextButton = carousel.querySelector(".carousel-next");
+
+  function showItem(index) {
+    // unselect all the items
+    items.forEach(item => item.classList.remove("carousel-item-selected"));
+    buttons.forEach(item => item.classList.remove("carousel-button-selected"));
+
+    items[index].classList.add("carousel-item-selected");
+    buttons[index].classList.add("carousel-button-selected");
+  }
+
+  buttons.forEach((button, i) => {
+    button.addEventListener("click", () => {
+      showItem(i);
     });
+  });
 
-    carousel.insertAdjacentHTML("beforeend", `
-     <div class="carousel-nav">
-       ${ buttonsHtml.join("") }
-     </div>  
-     `);
+  prevButton.addEventListener("click", () => {
+    const currentIndex = Array.from(buttons).findIndex(button => button.classList.contains("carousel-button-selected"));
+    const prevIndex = (currentIndex - 1 + items.length) % items.length;
+    showItem(prevIndex);
+  });
 
-     const buttons = carousel.querySelectorAll(".carousel-button");
+  nextButton.addEventListener("click", () => {
+    const currentIndex = Array.from(buttons).findIndex(button => button.classList.contains("carousel-button-selected"));
+    const nextIndex = (currentIndex + 1) % items.length;
+    showItem(nextIndex);
+  });
 
-     buttons.forEach((button, i) => {
-        button.addEventListener("click", () => {
-            console.log(`inside button click`)
-            //unselect all the items
-            items.forEach(item => item.classList.remove("carousel-item-selected"));
-            buttons.forEach(item => item.classList.remove("carousel-button-selected"));
-
-            items[i].classList.add("carousel-item-selected");
-            button.classList.add("carousel-button-selected");
-
-        }); 
-     });   
-
-     items[0].classList.add("carousel-item-selected");
-     buttons[0].classList.add("carousel-button-selected");
-     
-}); 
-
-
+  items[0].classList.add("carousel-item-selected");
+  buttons[0].classList.add("carousel-button-selected");
+});
 
 
 
