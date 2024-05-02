@@ -99,5 +99,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Call the function to randomize the order on page load
   randomizeSentences();
+  setSentences();
 });
 
