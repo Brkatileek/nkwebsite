@@ -681,7 +681,7 @@ table {
 }
 
 .carousel-button {
-  width: 10px;
+  width: 2rem;
   height: 10px;
   display: inline-block;
   background-color: grey;
