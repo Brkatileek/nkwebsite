@@ -299,7 +299,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 5rem; 
     padding: 20px; 
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 2rem;
     text-align-last: right;
     vertical-align: baseline;
     box-sizing: border-box;
@@ -797,6 +797,7 @@ justify-content: center;
   justify-content: center;
   box-sizing: border-box;
   font-family: 'mattone 150', sans-serif;
+  font-size: 5rem;
 }
   
 .imprintinfo {
@@ -918,7 +919,6 @@ table {
   margin: 0;
   border: 2px solid ;
   font-size: 1.2rem;
-
 }
 
 
