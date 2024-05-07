@@ -729,18 +729,24 @@ video {
   }
 
 .tobedone h2  {
-    justify-items: end;
+    justify-items: self-end;
     color: #0000ff!important;
     font-family: 'Mattone', sans-serif;
     display: grid;
     padding: 0px 20px 20px 20px;
     margin: 0px;
   }
-.products {
-  margin-top: 15rem;
-  padding: 20px;
   
-}
+  .theshopisfake h2 {
+    text-align-last: end;
+    color: #0000ff!important;
+    font-family: 'Mattone', sans-serif;
+    display: grid;
+    padding: 0px 20px 20px 20px;
+    margin: 0px;
+
+  }
+
 .products, .box-container {
   display: flex;
     flex-wrap: wrap;
@@ -750,9 +756,10 @@ video {
 }
 
 .products, .box-container, .box {
-flex: 1 1 50rem;
-position: relative;
 
+flex: 1 1 40rem;
+position: relative;
+margin-top: 2rem;
 }
 
 .productimg img {
