@@ -736,7 +736,7 @@ video {
     padding: 0px 20px 20px 20px;
     margin: 0px;
   }
-  
+
 .products, .box-container {
   display: flex;
     flex-wrap: wrap;
@@ -746,10 +746,9 @@ video {
 }
 
 .products, .box-container, .box {
-
 flex: 1 1 40rem;
 position: relative;
-margin-top: 2rem;
+margin-top: 1.7rem;
 }
 
 .productimg img {
@@ -763,7 +762,6 @@ align-content: center;
 align-items: center;
 display: grid;
 justify-content: center;
-
 }
 
 .content h3, .price {
