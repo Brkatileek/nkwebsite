@@ -49,6 +49,8 @@ body::-webkit-scrollbar-thumb {
   --fs-xl: clamp(1rem, 15vw + 1rem, 8rem);
   --fs-600: 2rem;
   --fs-400: 1rem;
+
+  background-color: #2b2b2b;
 }
 
 @font-face {
@@ -486,6 +488,7 @@ body::-webkit-scrollbar-thumb {
   left: 0px;
   box-sizing: border-box;
   width: 100%;
+  background-color: #2b2b2b;
   
 }
 
@@ -496,7 +499,7 @@ body::-webkit-scrollbar-thumb {
   .footer {
     padding-top: 350px;
     padding-bottom: 40px;
-    
+    background-color: #2b2b2b;
   }
 
   .footer a:link{
@@ -749,6 +752,7 @@ video {
 flex: 1 1 40rem;
 position: relative;
 margin-top: 1.7rem;
+background-color: #2b2b2b;
 }
 
 .productimg img {
@@ -825,6 +829,25 @@ justify-content: center;
 
 @media only screen and (max-width: 600px) {
 
+  .home-header {
+    width: 100%;
+    height: 80px;
+    max-height: 80px;
+    position: fixed;
+    padding: 0;
+    top: 0;
+    left: 0;
+    border: 2px solid #2b2b2b;
+    border-top-color: #e5e5e5;
+    font-family: 'Mattone 150', sans-serif;
+    letter-spacing: 0;
+    z-index: 99;
+    background: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing:border-box;
+  }
   .home-header-name {
     position: absolute;
     padding: 25px;
@@ -962,6 +985,7 @@ table {
     top: 0;
     left: 0;
     border: 2px solid #2b2b2b;
+    border-top-color: #e5e5e5;
     font-family: 'Mattone 150', sans-serif;
     letter-spacing: 0;
     z-index: 99;
