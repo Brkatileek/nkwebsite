@@ -469,14 +469,15 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
   }
 
-  p {
+  .work-info p {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 50%;
 }
-  
+
  /* fyi */
 
 .info-slider {
@@ -969,6 +970,16 @@ table {
   vertical-align: baseline;
   box-sizing: border-box;
 }
+.work-info p {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+ }
+
 
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -1074,6 +1085,7 @@ table {
  .privacy a {
   text-decoration: none;
  }
+
 
 /*481px — 768px: iPads, Tablets*/
 
